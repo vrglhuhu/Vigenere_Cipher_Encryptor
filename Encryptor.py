@@ -52,6 +52,13 @@ if agreement.upper().replace(" ", "") == "YES":
         ciphertext += chr(encrypted_num + 65)
    # Output the ciphertext.
     print("The ciphertext is: " + ciphertext)
+   # Create a footer.
+    print("Thank you for your time")
+    print("")
+    print("")
+    goodbye = pyfiglet.figlet_format("Visit me again", font = "digital" )
+    print (goodbye)
+    print("") 
 # Else if the user answered no.
 elif agreement.upper().replace(" ", "") == "NO":
    # Translate the key into corresponding letter values 0 - 25.
