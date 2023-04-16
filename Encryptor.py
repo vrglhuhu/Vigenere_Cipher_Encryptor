@@ -61,4 +61,7 @@ if agreement.upper().replace(" ", "") == "YES":
    # Output the ciphertext.
     print("The ciphertext is: " + ciphertext)
 # Else print invalid key.
+    print("")
+    print("Invalid key")
+    print("")
 # Create a footer.
