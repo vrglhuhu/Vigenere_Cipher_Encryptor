@@ -6,7 +6,7 @@ _I am Chean Bernard V. Vergel.  I am 18 years old and currently I am a first ye
 
 # _**My Vigenère Cipher Encryptor**_
 
-_Let this decryptor to convert your message into plain text!_
+_Let this encryptor to convert your plain text message to encrypted text!_
 
 # _**Introduction**_
 > My Vigenère Cipher is a program that will help you to encrypt a message using the Vigenère Cipher. It is designed to be simple and easy to use so that anyone can quickly encrypt a message without having any prior knowledge of cryptography.
