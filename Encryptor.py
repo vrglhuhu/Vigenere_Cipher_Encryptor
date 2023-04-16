@@ -36,7 +36,13 @@ key = key.upper().replace(" ", "")
 print("")
 # Ask the user if want to see the inputted message and key.
 agreement = str(input("Do you want to see your inputted mesessage and key? YES or NO: "))
-# If the user answered yes print the message and key.
+# If the user answered yes, print the message and key.
+if agreement.upper().replace(" ", "") == "YES":
+    print("")
+    print("YOUR MESSAGE IS: " + message)
+    print("")
+    print("YOUR KEY IS: " + key)
+    print("")
    # Translate the key into corresponding letter values 0 - 25.
    # Encrypt the message.
    # Output the ciphertext.
