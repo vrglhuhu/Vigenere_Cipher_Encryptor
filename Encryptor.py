@@ -24,6 +24,16 @@ print("")
 print("This program will encrypt a message using the Vigenère Cipher ")
 print("")
 # Ask user for the message and the key.
+print("FOR MESSAGE")
+print("")
+message = input("Please enter the message: ")
+message = message.upper().replace(" ", "")
+print("")
+print("FOR KEY")
+print("")
+key = input("Please enter the key: ")
+key = key.upper().replace(" ", "")
+print("")
 # Ask the user if want to see the inputted message and key.
 # If the user answered yes print the message and key.
    # Translate the key into corresponding letter values 0 - 25.
