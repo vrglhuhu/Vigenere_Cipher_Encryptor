@@ -16,8 +16,13 @@ welcome_two = pyfiglet.figlet_format("Cipher".center(13, " "), font = "puffy" )
 print(welcome_two) 
 print("=" * 70)
 print("=" * 70)
-
 # Ask for the name of the user.
+print("Hi, I am Chean Bernard V. Vergel a first year college student at Polytechnic University of the Philippines.")
+print("")
+name_of_user = input("How about you what is your name? ")
+print("")
+print("This program will encrypt a message using the Vigenère Cipher ")
+print("")
 # Ask user for the message and the key.
 # Ask the user if want to see the inputted message and key.
 # If the user answered yes print the message and key.
