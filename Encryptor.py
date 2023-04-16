@@ -64,4 +64,11 @@ if agreement.upper().replace(" ", "") == "YES":
     print("")
     print("Invalid key")
     print("")
+    quit()
 # Create a footer.
+    print("Thank you for your time")
+    print("")
+    print("")
+    goodbye = pyfiglet.figlet_format("Visit me again", font = "digital" )
+    print (goodbye)
+    print("")
