@@ -10,3 +10,11 @@ _Let this decryptor to convert your message into plain text!_
 
 # _**INTRODUCTION**_
 > My Vigenère Cipher is a program that will help you to encrypt a message using the Vigenère Cipher. It is designed to be simple and easy to use so that anyone can quickly encrypt a message without having any prior knowledge of cryptography.
+
+# _**FEATURES**_
+- > The program contains a **header** with a welcome message.
+- > The program **asks for input from the user**: their name, message, and key.
+- > The program gives the **user the agreement** or option to see their inputted message and key.
+- > The program is capable to **encrypt** the message using the Vigenère Cipher.
+- > The program **outputs** the ciphertext.
+- > The program contains a **footer** with a goodbye message.
