@@ -18,3 +18,17 @@ _Let this decryptor to convert your message into plain text!_
 - > The program is capable to **encrypt** the message using the Vigenère Cipher.
 - > The program **outputs** the ciphertext.
 - > The program contains a **footer** with a goodbye message.
+
+# _**How to run this program?**_
+
+![carbon(1)](https://user-images.githubusercontent.com/129587048/232314772-2bcd20cb-9a97-4c4a-9c23-c20ffa4e7e4e.png)
+
+# _**How to run this program using IDE?**_
+- > **1st step** - You have to install any of the popular IDEs such as PyCharm, Atom, or Visual Studio Code to run this program.
+- > **2nd step** - After you have installed and opened the IDE, open the file containing the program.
+- > **3rd step** - This program will print a greeting statement.
+- > **4th step** - This program will ask for the name of the user.
+- > **5th step** - The program will ask the user for message and key.
+- > **6th step** - The program will ask the user if want to see the inputted message and key.
+- > **7th step** - The program will output the ciphertext.
+- > **8th step** - This program will print a goodbye greeting to the user.
