@@ -53,7 +53,12 @@ if agreement.upper().replace(" ", "") == "YES":
     print("The ciphertext is: " + ciphertext)
 # Else if the user answered no.
    # Translate the key into corresponding letter values 0 - 25.
+    key_map = [ord(i) - 65 for i in key]
    # Encrypt the message.
+    for i in range(len(message)):
+        encrypted_num = (ord(message[i]) - 65 + key_map[i % len(key_map)]) % 26
+        ciphertext += chr(encrypted_num + 65)
    # Output the ciphertext.
+    print("The ciphertext is: " + ciphertext)
 # Else print invalid key.
 # Create a footer.
