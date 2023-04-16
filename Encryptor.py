@@ -18,34 +18,34 @@ print("=" * 70)
 print("=" * 70)
 
 # Ask for the name of the user.
-print("Hi, I am Chean Bernard V. Vergel a first year college student at Polytechnic University of the Philippines.")
+print("\n\033[33mHi, I am Chean Bernard V. Vergel a first year college student at Polytechnic University of the Philippines.\033[0m")
 print("")
-name_of_user = input("How about you what is your name? ")
+name_of_user = input("\033[35mHow about you what is your name?\U0001F917\033[0m ")
 print("")
-print("This program will encrypt a message using the Vigenère Cipher ")
+print("\033[36m\U0001F534\U0001F534\U0001F534 This program will encrypt a message using the Vigenère Cipher \U0001F534\U0001F534\U0001F534\033[0m")
 print("")
 
 # Ask user for the message and the key.
-print("FOR MESSAGE")
+print("\033[41mFOR MESSAGE\U0001F447\033[0m")
 print("")
-message = input("Please enter the message: ")
+message = input("\033[32mPlease enter the message:\033[0m ")
 message = message.upper().replace(" ", "")
 print("")
-print("FOR KEY")
+print("\033[41mFOR KEY\U0001F447\033[0m")
 print("")
-key = input("Please enter the key: ")
+key = input("\033[32mPlease enter the key:\033[0m ")
 key = key.upper().replace(" ", "")
 print("")
 
 # Ask the user if want to see the inputted message and key.
-agreement = str(input("Do you want to see your inputted mesessage and key? YES or NO: "))
+agreement = str(input("\033[32mDo you want to see your inputted mesessage and key? \033[0m\033[40m\033[33mYES\033[0m \033[32mor\033[0m \033[40m\033[33mNO:\033[0m "))
 
 # If the user answered yes, print the message and key.
 if agreement.upper().replace(" ", "") == "YES":
     print("")
-    print("YOUR MESSAGE IS: " + message)
+    print("\033[41mYOUR MESSAGE IS:\033[0m " + message)
     print("")
-    print("YOUR KEY IS: " + key)
+    print("\033[41mYOUR KEY IS:\033[0m " + key)
     print("")
 
    # Translate the key into corresponding letter values 0 - 25.
@@ -61,7 +61,8 @@ if agreement.upper().replace(" ", "") == "YES":
     print("The ciphertext is: " + ciphertext)
 
    # Create a footer.
-    print("Thank you for your time")
+    print("")
+    print("\033[40m\033[33mThank you for your time\U0001F600\033[0m")
     print("")
     print("")
     goodbye = pyfiglet.figlet_format("Visit me again", font = "digital" )
@@ -81,16 +82,16 @@ elif agreement.upper().replace(" ", "") == "NO":
         ciphertext += chr(encrypted_num + 65)
 
    # Output the ciphertext.
-    print("The ciphertext is: " + ciphertext)
+    print("\U0001F7E1\U0001F7E1\U0001F7E1\033[32m The ciphertext is: \033[0m" + ciphertext + "\U0001F7E1\U0001F7E1\U0001F7E1")
 
 # Else print invalid key.
     print("")
-    print("Invalid key")
+    print("\033[40m\033[33mInvalid key\U0001F972\033[0m")
     print("")
     quit()
-    
+
 # Create a footer.
-    print("Thank you for your time")
+    print("\033[40m\033[33mThank you for your time\033[0m")
     print("")
     print("")
     goodbye = pyfiglet.figlet_format("Visit me again", font = "digital" )
